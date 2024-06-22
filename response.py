@@ -55,7 +55,7 @@ class RearCameraInfo:
 
 @dataclass
 class DDPAIPlayback:
-    index: int = 0
+    index: int | str = 0
     starttime: int | str = 0
     endtime: int | str = 0
     name: str = ""
@@ -82,7 +82,7 @@ class DDPAIParking:
     
 @dataclass
 class CameraFootage:
-    index : int = 0
+    index : int | str = 0
     name: str = ""
     imgname: str = ""
     starttime : int | str = 0

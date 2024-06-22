@@ -1,5 +1,3 @@
-#{"user":"admin","password":"admin","level":0,"uid":"22b8d8d2e89ae3bdcom.cam.ddpai_overseas"}
-
 # base url / local ip address
 BASE_URL: str = "http://193.168.0.1"
 
