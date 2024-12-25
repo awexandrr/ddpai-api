@@ -50,6 +50,8 @@ PARKEventClear: str = F"{BASE_URL}/vcam/cmd.cgi?cmd=APP_ParkingEventListClear"
 ######################### STREAMING ENDPOINT ################################
 RTSPSetCamera: str = F"{BASE_URL}/vcam/cmd.cgi?cmd=API_SetAppLiveState"
 RTSPSwitchCamera: str = F"{BASE_URL}/vcam/cmd.cgi?cmd=API_PlaybackLiveSwitch"
+RTSPLiveFrontCam: str = F"rtsp://{BASE_URL}:554/liveRTSP/av4"
+RTSPLiveRearCam: str = F"rtsp://{BASE_URL}:554/liveRTSP/av5"
 
 ########################## GPS/GSN ENDPOINT #################################
 # GPS Endpoint
